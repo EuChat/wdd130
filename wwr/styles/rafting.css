@@ -41,7 +41,7 @@ p{
     background-size: cover;
     position: relative;
     block-size: 400px;
-    background-color: rgba(143, 138, 138, alpha);
+    background-color: rgba(143, 138, 138, 0.5);
     
 }
 
