@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital=optional-2nd-font-name&display=swap'); 
+
+
+*{ 
+    margin: 0;
+    width: auto;
+    
+}
+
+
+:root{
+    --primary-color: #269BFC;
+    --secondary-color: #0F0A0A;
+    --accent1-color: #E7DFC6;
+    --accent2-color: #F5B0CB;
+
+    --heading-font: 'Noto Serif Display', serif;
+    --paragraph-font: 'Instrument Serif', serif;
+
+    --nav-background-color: #269BFC;
+    --nav-link-color: #0F0A0A;
+    --nav-hover-link-color: #E7DFC6;
+    --nav-hover-background-color: #F5B0CB;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--heading-Noto Serif Display,serif);
+    color: var(--primary-color);
+}
+
+
+p{
+    font-family: var(--paragraph-Instrument Serif,serif);
+    padding: 20px;
+    color: #000;
+} 
+
+.hero {
+    background-image: linear-gradient(to top, rgba(133, 128, 128, 0.507),rgba(161, 156, 156, 0.548)),url(../images/rafting13_1024.jpg);
+    background-size: cover;
+    position: relative;
+    block-size: 400px;
+    background-color: rgba(143, 138, 138, alpha);
+    
+}
+
+.hero p{
+    color: white;
+    position: relative;
+    font-size: large;
+    padding-top: 100px;
+}
+
+.hero img {
+    float: right;
+}
+
+header{
+    position:relative;
+    z-index: 2;
+}
+
+
+footer {
+  text-align: center;
+  margin-bottom: 20px;
+} 
+
