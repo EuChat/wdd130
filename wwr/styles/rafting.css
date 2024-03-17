@@ -25,13 +25,13 @@
 
 
 h1, h2, h3, h4, h5, h6{
-    font-family: var(--heading-Noto Serif Display,serif);
+    font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
 
 p{
-    font-family: var(--paragraph-Instrument Serif,serif);
+    font-family: var(--paragraph-font);
     padding: 20px;
     color: #000;
 } 
