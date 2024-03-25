@@ -45,7 +45,7 @@ main {
     margin: 1rem;
 }
 
-aside {
+.aside {
     width: 20rem;
     margin: 1em;
     border:1px solid rgba(0,0,0,0.2); 
@@ -57,17 +57,18 @@ aside {
     position: relative;
 }
 
-aside img{
+.aside img{
     width: 200px;
     height: auto;
 }
 
 header, footer , .grid{
-    margin-top: 15px;
+    margin: 0 auto;
+    max-width: 840px;
     border: 1px solid #000;
     text-align: center;
-    max-width: 840px;
-    margin: 0 auto;
+   
+    
 }
 
 /* Class Selectorts */
@@ -90,5 +91,4 @@ aside h2{
 .grid{
     display: grid;
     align-items: center;
-
 }
