@@ -1,0 +1,25 @@
+*{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Quiz{
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: steelblue;
+    border: 2px solid black;
+    row-gap: 5px;
+    font-size: large;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+button{
+    background-color: rgb(31, 31, 150);
+    color: antiquewhite;
+    justify-self: center;
+    font-size: larger;
+    padding: 0 1fr 0 1fr;
+}
