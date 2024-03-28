@@ -78,6 +78,7 @@ aside h2{
     left: 100px;
 }
 
+/* Grid Class Selectors */
 .grid{
     display: grid;
     align-items: center;
