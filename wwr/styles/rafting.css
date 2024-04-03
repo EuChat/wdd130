@@ -127,7 +127,7 @@ header{
 
 .captions{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
     background-color: var(--accent2-color);
     padding-bottom: 10px;
@@ -222,3 +222,7 @@ button{
     font-size: larger;
     padding: 10px;
 }
+.available-trips{
+    display: flex;
+}
+
