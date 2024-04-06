@@ -330,3 +330,7 @@ table thead{
     display: flex;
     align-items: center;
 }
+
+.contents {
+    background-color: var(--accent1-color);
+}
