@@ -49,12 +49,14 @@ p{
     color: white;
     position: relative;
     font-size: large;
-    padding-top: 100px;
+    padding-top: 75px;
 }
 
 .hero img {
     float: right;
 }
+
+
 
 header{
     position:relative;
@@ -94,8 +96,6 @@ header{
     
 }
 
-
-
 .contact h2{
     justify-self: center;
     grid-column-start: 1;
@@ -125,9 +125,18 @@ header{
     justify-self: center;
 }
 
-.captions{
+
+.captionstrip{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    background-color: var(--accent2-color);
+    padding-bottom: 10px;
+    text-align: center;
+}
+.captions{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
     background-color: var(--accent2-color);
     padding-bottom: 10px;
@@ -152,7 +161,18 @@ header{
     width: 100%;
 }
 
+.captionstrip img{
+    width: 100%;
+}
+
+
 .captions h2{ 
+    grid-column-start:1 ;
+    grid-column-end: 6;
+    justify-self: center;
+}
+
+.captionstrip h2{ 
     grid-column-start:1 ;
     grid-column-end: 6;
     justify-self: center;
@@ -170,6 +190,7 @@ footer {
     margin-bottom: 20px;
     display: grid;
     grid-template-columns:3fr 1fr;
+    padding-top: 20px;
 } 
 
 
@@ -220,9 +241,92 @@ button{
     color: antiquewhite;
     justify-self: center;
     font-size: larger;
-    padding: 10px;
+    padding: -10px;
+    align-self: center;
 }
 .available-trips{
     display: flex;
+    align-items: center;
 }
 
+.gridsquash{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: var(--accent1-color);
+    border: 1px solid black;
+}
+
+
+
+.images img, .gridsquash img{
+    width: 100%;
+    /* border: 2px double black; */
+ 
+}
+
+.images{
+    padding: 20px 0 20px 23%;
+}
+
+
+form{
+    
+    background-color: steelblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+    padding: 40px 40px 40px 40px ;
+    
+}
+
+.left{
+    font-size: large;
+    background-color:  var(--accent2-color);
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    border: 2px solid black;
+    font-size: larger;
+    row-gap: 40px;
+    
+}
+.right{
+    display: grid;
+    font-size: large;
+    background-color:   var(--accent2-color);
+    border: 2px solid black;
+    font-size: larger;
+    row-gap: 40px;
+    
+}
+
+.heroin {
+    background-image: url(../images/rafting13_1024.jpg);
+    background-size: cover;
+    position: relative;
+    block-size: 400px;
+    background-color: rgba(143, 138, 138, 0.5);
+    
+}
+
+.heroin p{
+    color: white;
+    position: relative;
+    font-size: large;
+    padding-top: 75px;
+}
+
+table{
+    background-color: var(--accent1-color);
+
+}
+
+table thead{
+    background-color: var(--primary-color);
+}
+
+
+.callaction{
+    display: flex;
+    align-items: center;
+}
